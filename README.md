@@ -4,7 +4,7 @@ Minimal reproduction to demo VSCode Comark not parsing `component-meta.mjs` corr
 
 ## Reproduction Steps
 
-1. Open the project in VSCode on Windows and install dependencies.
+1. Open the project in VSCode on Windows with the [`vscode-comark`](https://marketplace.visualstudio.com/items?itemName=Nuxt.mdc) extension, and install dependencies.
 
     ```bash
     npm install
@@ -32,7 +32,8 @@ Minimal reproduction to demo VSCode Comark not parsing `component-meta.mjs` corr
     2026-06-22T17:03:10.765Z [info]: Initial MDC component metadata fetch completed.
     ```
 
-**Note:**
-- The generated `component-meta.mjs` should look like
-  - [sample\component-meta.d.ts](sample\component-meta.d.ts)
-  - [sample\component-meta.mjs](sample\component-meta.mjs)
+> [!NOTE]
+>
+> The generated `component-meta.mjs` should look like
+> - [sample\component-meta.d.ts](sample\component-meta.d.ts)
+> - [sample\component-meta.mjs](sample\component-meta.mjs)
