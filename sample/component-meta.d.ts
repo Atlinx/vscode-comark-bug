@@ -1,0 +1,5 @@
+import type { ComponentData } from 'nuxt-component-meta'
+export type NuxtComponentMetaNames = 'Admonition' | 'ProseA' | 'ProseBlockquote' | 'ProseCode' | 'ProseEm' | 'ProseH1' | 'ProseH2' | 'ProseH3' | 'ProseH4' | 'ProseH5' | 'ProseH6' | 'ProseHr' | 'ProseImg' | 'ProseLi' | 'ProseOl' | 'ProseP' | 'ProsePre' | 'ProseScript' | 'ProseStrong' | 'ProseTable' | 'ProseTbody' | 'ProseTd' | 'ProseTh' | 'ProseThead' | 'ProseTr' | 'ProseUl' | 'NuxtWelcome' | 'NuxtLayout' | 'NuxtErrorBoundary' | 'ClientOnly' | 'DevOnly' | 'ServerPlaceholder' | 'NuxtLink' | 'NuxtLoadingIndicator' | 'NuxtTime' | 'NuxtRouteAnnouncer' | 'NuxtAnnouncer' | 'NuxtImg' | 'NuxtPicture' | 'ContentRenderer'
+export type NuxtComponentMeta = Record<NuxtComponentMetaNames, ComponentData>
+declare const components: NuxtComponentMeta
+export { components as default, components }

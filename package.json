@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-component-meta-bug",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "npx patch-package && nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.14.0",
+    "better-sqlite3": "^12.11.1",
+    "nuxt": "^4.4.8",
+    "nuxt-component-meta": "^0.17.2",
+    "vue": "^3.5.38",
+    "vue-router": "^5.1.0"
+  }
+}
