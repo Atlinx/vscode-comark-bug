@@ -11,7 +11,7 @@ Minimal reproduction to demo VSCode Comark not parsing `component-meta.mjs` corr
     ```
 
 2. Open one of the `content/**.md` files
-    - **Ex.** [`content/index.md`](content/index.md), [`content/page2.md`](content/page2.md)
+    - **Ex.** [`content/index.md`](./content/index.md), [`content/page2.md`](./content/page2.md)
 3. Open the VSCode output tab, and navigate to `MDC - Markdown Componeents`
 4. See the following error
 
@@ -35,5 +35,5 @@ Minimal reproduction to demo VSCode Comark not parsing `component-meta.mjs` corr
 > [!NOTE]
 >
 > The generated `component-meta.mjs` should look like
-> - [sample\component-meta.d.ts](sample\component-meta.d.ts)
-> - [sample\component-meta.mjs](sample\component-meta.mjs)
+> - [sample\component-meta.d.ts](./sample/component-meta.d.ts)
+> - [sample\component-meta.mjs](./sample/component-meta.mjs)
